@@ -3,5 +3,5 @@ pandas==1.3.3
 numpy==1.21.2
 html5lib==1.1
 datetime
-BeautifulSoup
+beautifulsoup4
 Requests

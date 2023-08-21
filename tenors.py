@@ -110,10 +110,9 @@ else:
 
             return data[0]
         
-        try:
-            data = taux(date_obj)
-        except Exception as e:
-            st.error("Aucune donnée n'a été trouvée pour cette date.")
+       
+        data = taux(date_obj)
+        
         
         if data is not None and not data.empty:
             st.write("Tableau des taux de référence des bons du Trésor")
